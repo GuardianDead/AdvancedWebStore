@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedWebStore.Api", "src\AdvancedWebStore.Api\AdvancedWebStore.Api.csproj", "{37FE0995-3799-4437-92CB-3BFC4FFDA85F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedWebStore.Application", "src\AdvancedWebStore.Application\AdvancedWebStore.Application.csproj", "{67B40FFD-4FDA-4586-8F97-993E40189135}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedWebStore.Core", "src\AdvancedWebStore.Core\AdvancedWebStore.Core.csproj", "{FA392339-5FE7-4CF9-BF3F-CD1B392E3187}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6CEB09E4-8973-4EC2-8314-D4B0D581826D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E2C387F6-5CFD-4138-A468-2AD2329D71FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedWebStore.Application.UnitTests", "tests\AdvancedWebStore.Application.UnitTests\AdvancedWebStore.Application.UnitTests.csproj", "{986FCB1C-8506-4C1B-8754-7C7B6E55FC81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedWebStore.Api.IntegrationTests", "tests\AdvancedWebStore.Api.IntegrationTests\AdvancedWebStore.Api.IntegrationTests.csproj", "{FFC6E582-2650-4489-B13A-82A05AF27465}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37FE0995-3799-4437-92CB-3BFC4FFDA85F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37FE0995-3799-4437-92CB-3BFC4FFDA85F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37FE0995-3799-4437-92CB-3BFC4FFDA85F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37FE0995-3799-4437-92CB-3BFC4FFDA85F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67B40FFD-4FDA-4586-8F97-993E40189135}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67B40FFD-4FDA-4586-8F97-993E40189135}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67B40FFD-4FDA-4586-8F97-993E40189135}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67B40FFD-4FDA-4586-8F97-993E40189135}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA392339-5FE7-4CF9-BF3F-CD1B392E3187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA392339-5FE7-4CF9-BF3F-CD1B392E3187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA392339-5FE7-4CF9-BF3F-CD1B392E3187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA392339-5FE7-4CF9-BF3F-CD1B392E3187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{986FCB1C-8506-4C1B-8754-7C7B6E55FC81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{986FCB1C-8506-4C1B-8754-7C7B6E55FC81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{986FCB1C-8506-4C1B-8754-7C7B6E55FC81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{986FCB1C-8506-4C1B-8754-7C7B6E55FC81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFC6E582-2650-4489-B13A-82A05AF27465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFC6E582-2650-4489-B13A-82A05AF27465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFC6E582-2650-4489-B13A-82A05AF27465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFC6E582-2650-4489-B13A-82A05AF27465}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{37FE0995-3799-4437-92CB-3BFC4FFDA85F} = {6CEB09E4-8973-4EC2-8314-D4B0D581826D}
+		{67B40FFD-4FDA-4586-8F97-993E40189135} = {6CEB09E4-8973-4EC2-8314-D4B0D581826D}
+		{FA392339-5FE7-4CF9-BF3F-CD1B392E3187} = {6CEB09E4-8973-4EC2-8314-D4B0D581826D}
+		{986FCB1C-8506-4C1B-8754-7C7B6E55FC81} = {E2C387F6-5CFD-4138-A468-2AD2329D71FE}
+		{FFC6E582-2650-4489-B13A-82A05AF27465} = {E2C387F6-5CFD-4138-A468-2AD2329D71FE}
+	EndGlobalSection
+EndGlobal
